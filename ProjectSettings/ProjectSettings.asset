@@ -1,0 +1,423 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!129 &1
+PlayerSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 24
+  m_BuildTargetTags: []
+  m_BuildTargetGroups: []
+  productName: Still Gone
+  companyName: StillGoneStudio
+  m_ApplicationBundleVersion: 1.0
+  defaultScreenWidth: 1080
+  defaultScreenHeight: 1920
+  defaultScreenOrientation: 0
+  targetDevice: 2
+  useOnDemandResources: 0
+  accelerometerFrequency: 60
+  m_IsEditorAnalyticsEnabled: 1
+  m_IsBuildTargetSupported: 1
+  m_RequiresFullScreen: 1
+  m_StatusBarHidden: 1
+  m_ExitOnSuspend: 0
+  m_CaptureGroupFPS: 0
+  runInBackground: 0
+  displayResolutionDialog: 0
+  defaultIsNativeResolution: 1
+  defaultIsFullScreen: 1
+  m_MTRendering: 1
+  m_StackTraceTypes: 010000000100000001000000010000000100000001000000
+  iosShowActivityIndicatorOnLoading: -1
+  androidShowActivityIndicatorOnLoading: -1
+  iosUseCustomAppBackgroundBehavior: 0
+  allowedAutorotateToPortrait: 1
+  allowedAutorotateToPortraitUpsideDown: 0
+  allowedAutorotateToLandscapeRight: 0
+  allowedAutorotateToLandscapeLeft: 0
+  useOSAutorotation: 1
+  use32BitDisplayBuffer: 1
+  preserveFramebufferAlpha: 0
+  disableDepthAndStencilBuffers: 0
+  androidStartInFullscreen: 1
+  androidRenderOutsideSafeArea: 1
+  androidUseSwappy: 1
+  androidBlitType: 0
+  androidResizableWindow: 0
+  androidDefaultWindowWidth: 1920
+  androidDefaultWindowHeight: 1080
+  androidMinimumWindowWidth: 400
+  androidMinimumWindowHeight: 300
+  androidFullscreenMode: 1
+  defaultScreenWidthWeb: 960
+  defaultScreenHeightWeb: 600
+  m_StereoRenderingPath: 0
+  m_ActiveColorSpace: 0
+  m_SpriteBatchVertexThreshold: 300
+  m_ShowUnitySplashScreen: 0
+  m_ShowUnitySplashLogo: 0
+  m_SplashScreenOverlayOpacity: 1
+  m_SplashScreenAnimation: 1
+  m_SplashScreenLogoStyle: 1
+  m_SplashScreenDrawMode: 0
+  m_SplashScreenBackgroundAnimationZoom: 1
+  m_SplashScreenLogoAnimationZoom: 1
+  m_SplashScreenBackgroundLandscapeAspect: 1
+  m_SplashScreenBackgroundPortraitAspect: 1
+  m_SplashScreenBackgroundLandscapeUvs:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  m_SplashScreenBackgroundPortraitUvs:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  m_SplashScreenLogos: []
+  m_VirtualRealitySplashScreen: {fileID: 0}
+  m_HolographicTrackingLossScreen: {fileID: 0}
+  defaultCursor: {fileID: 0}
+  cursorHotspot: {x: 0, y: 0}
+  m_DefaultScreenOrientation: -1
+  m_AllowedAutorotationOnPortrait: 1
+  m_AllowedAutorotationOnPortraitUpsideDown: 1
+  m_AllowedAutorotationOnLandscapeRight: 1
+  m_AllowedAutorotationOnLandscapeLeft: 1
+  m_UseOSAutorotation: 1
+  m_Use32BitDisplayBuffer: 1
+  m_PreserveFramebufferAlpha: 0
+  m_DisableDepthAndStencilBuffers: 0
+  m_AndroidSupportedAspectRatio: 1
+  m_AndroidMaxAspectRatio: 2.1
+  m_applicationIdentifier:
+    Android: com.stilgone.game
+    Standalone: com.stilgone.game
+    iPhone: com.stilgone.game
+  m_BuildTargetBundles: {}
+  m_BuildTargetIcons: {}
+  AndroidBundleVersionCode: 1
+  AndroidMinSdkVersion: 22
+  AndroidTargetSdkVersion: 34
+  AndroidPreferredInstallLocation: 1
+  aotOptions: 
+  AndroidUseOBB: 0
+  AndroidPublicKeyHash: 
+  AndroidGamepadSupportLevel: 0
+  AndroidEnableTango: 0
+  AndroidEnableARCore: 0
+  AndroidARCoreRequirement: 0
+  AndroidEnableWifi: 1
+  AndroidEnableBluetoothGAP: 0
+  AndroidMaxAspectRatio: 2.1
+  androidSupportedAspectRatio: 1
+  AndroidSplashScreenScale: 0
+  AndroidKeystoreName: 
+  AndroidKeyaliasName: 
+  AndroidBuildApkPerCpuArchitecture: 0
+  AndroidTVCompatibility: 0
+  AndroidIsGame: 1
+  AndroidEnableDeepLinkingAPI: 0
+  AndroidValidateAppBundleSize: 1
+  AndroidAppBundleSizeToValidate: 150
+  m_AndroidPermissions: {}
+  m_AndroidFeatures: {}
+  m_BuildTargetTags: []
+  m_BuildTargetGraphicsJobs: {}
+  m_BuildTargetGraphicsJobMode: {}
+  m_BuildTargetNormalMapEncoding: {}
+  m_BuildTargetDefaultTextureCompressionFormat: {}
+  m_TemplateCustomKeys: []
+  m_TemplateCustomValues: []
+  m_BuildTargetEtc2Fallback: {}
+  m_BuildTargetShaderPreloadedVariants: {}
+  wiiSaveBogoSize: 0
+  iPhoneSdkVersion: 988
+  iOSTargetOSVersionString: 12.0
+  tvOSSdkVersion: 0
+  tvOSRequireExtendedGameController: 0
+  tvOSTargetOSVersionString: 12.0
+  uIPrerenderedIcon: 0
+  uIRequiresPersistentWiFi: 0
+  uIRequiresFullScreen: 1
+  uIStatusBarHidden: 1
+  uIExemptFromBackgroundSaving: 0
+  uIFileSharingEnabled: 0
+  iPhoneHighResolutionCapable: 1
+  iPhoneSplashScreen: {fileID: 0}
+  iPhoneVerticalSplashScreen: {fileID: 0}
+  iPadPortraitSplashScreen: {fileID: 0}
+  iPadHighResPortraitSplashScreen: {fileID: 0}
+  iPadLandscapeSplashScreen: {fileID: 0}
+  iPadHighResLandscapeSplashScreen: {fileID: 0}
+  appleTVSplashScreen: {fileID: 0}
+  appleTVSplashScreen2x: {fileID: 0}
+  tvOSSmallIconLayers: []
+  tvOSSmallIconLayers2x: []
+  tvOSLargeIconLayers: []
+  tvOSLargeIconLayers2x: []
+  tvOSTopShelfImageLayers: []
+  tvOSTopShelfImageLayers2x: []
+  tvOSTopShelfImageWideLayers: []
+  tvOSTopShelfImageWideLayers2x: []
+  iOSLaunchScreenType: 0
+  iOSLaunchScreenPortrait: {fileID: 0}
+  iOSLaunchScreenLandscape: {fileID: 0}
+  iOSLaunchScreenBackgroundColor:
+    serializedVersion: 2
+    rgba: 4278190080
+  iOSLaunchScreenFillPct: 100
+  iOSLaunchScreenSize: 100
+  iOSLaunchScreenCustomXibPath: 
+  iOSLaunchScreeniPadType: 0
+  iOSLaunchScreeniPadImage: {fileID: 0}
+  iOSLaunchScreeniPadBackgroundColor:
+    serializedVersion: 2
+    rgba: 4278190080
+  iOSLaunchScreeniPadFillPct: 100
+  iOSLaunchScreeniPadSize: 100
+  iOSLaunchScreeniPadCustomXibPath: 
+  iOSUseLaunchScreenStoryboard: 0
+  iOSLaunchScreenCustomStoryboardPath: 
+  iOSLaunchScreeniPadCustomStoryboardPath: 
+  iOSDeviceRequirements: []
+  iOSURLSchemes: []
+  iOSBackgroundModes: 0
+  iOSMetalForceHardShadows: 0
+  metalEditorSupport: 1
+  metalAPIValidation: 1
+  iOSRenderExtraFrameOnPause: 0
+  iOSAppInBackgroundBehavior: 0
+  iOSExtensionDeclarations: []
+  wsa_transparent_debugger: 0
+  m_HtmlTemplateIndex: 0
+  m_HtmlCustomTemplate: 
+  webPlayerOfflineDeployment: 0
+  webPlayerStreamed: 0
+  webPlayerMemorySize: 256
+  useDirect3D11: 0
+  m_GPU_USAGE: 0
+  m_ANTI_ALIASING: 1
+  m_LEGACY_CLAMP_BLENDS: 0
+  gpuSkinning: 1
+  graphicsJobs: 0
+  xboxPIXTextureCapture: 0
+  xboxEnableAvatar: 0
+  xboxEnableKinect: 0
+  xboxEnableKinectAutoTracking: 0
+  xboxEnableFitness: 0
+  visibleInBackground: 1
+  allowFullscreenSwitch: 1
+  graphicsJobMode: 0
+  macFullscreenMode: 2
+  d3d11FullscreenMode: 1
+  xboxSpeechDB: 0
+  xboxEnableHeadOrientation: 0
+  xboxReverseLeftThumbstickY: 0
+  xboxReverseRightThumbstickY: 0
+  xboxControllerToUserIdMappingEnabled: 0
+  wiiBalanceBoardEnabled: 0
+  wiiUGamePadEnabled: 0
+  wiiUGamePadType: 0
+  wiiUGamePadPath: 
+  wiiUTVResolution: 0
+  wiiUTVFiltering: 0
+  wiiUDRCFiltering: 0
+  wiiUTVAntiAliasing: 0
+  wiiUMoviePlayed: 0
+  wiiUGamePadMic: 0
+  wiiUCommonSaveDataPath: 
+  wiiUMoviePath: 
+  wiiULogoTexture: {fileID: 0}
+  wiiULegalImagePath: 
+  wiiUGamePadSplashScreen: {fileID: 0}
+  wiiUTitleID: 0005000011335B00
+  wiiUGroupID: 00010001
+  wiiUCommonKeyIndex: 0
+  n3dsHosts: 
+  n3dsTitleID: 
+  n3dsProductCode: 
+  n3dsApplicationID: 
+  ps4NPAgeRating: 12
+  ps4NPTitleSecret: 
+  ps4NPTrophyPackPath: 
+  ps4ParentalLevel: 11
+  ps4ContentID: ED1633-NPXX51362_00-0000000000000001
+  ps4Category: 0
+  ps4MasterVersion: 01.00
+  ps4AppVersion: 01.00
+  ps4AppType: 0
+  ps4ParamSfxPath: 
+  ps4VideoOutPixelFormat: 0
+  ps4VideoOutInitialWidth: 1920
+  ps4VideoOutReprojectionRate: 120
+  ps4PronunciationXMLPath: 
+  ps4PronunciationSIGPath: 
+  ps4BackgroundImagePath: 
+  ps4StartupImagePath: 
+  ps4StartupImagesFolder: 
+  ps4IconImagesFolder: 
+  ps4SaveDataImagePath: 
+  ps4SdkOverride: 
+  ps4AllowOfflineMode: 0
+  ps4BgmPath: 
+  ps4ShareFilePath: 
+  ps4ShareOverlayImagePath: 
+  ps4PrivacyGuardImagePath: 
+  ps4ExtraSceSysFile: 
+  ps4PlayTogetherPlayerCount: 0
+  ps4EnterButtonAssignment: 2
+  ps4ApplicationParam1: 0
+  ps4ApplicationParam2: 0
+  ps4ApplicationParam3: 0
+  ps4ApplicationParam4: 0
+  ps4DownloadDataSize: 0
+  ps4GarlicHeapSize: 2048
+  ps4ProGarlicHeapSize: 2560
+  playerPrefsMaxSize: 32768
+  ps4Passcode: frAQBc8Wsa1xVPfvJcrgRYwTiizs2trQ
+  ps4pnSessions: 1
+  ps4pnPresence: 1
+  ps4pnFriends: 1
+  ps4pnGameCustomData: 1
+  playerPrefsSupport: 0
+  enableApplicationExit: 0
+  resetResolutionOnWindowResize: 0
+  ps4UseResolutionFallback: 0
+  restrictedAudioUsageRights: 0
+  ps4ReprojectionSupport: 0
+  ps4UseAudio3dBackend: 0
+  ps4SocialScreenEnabled: 0
+  ps4ScriptOptimizationLevel: 0
+  ps4Audio3dVirtualSpeakerCount: 14
+  ps4attribCpuUsage: 0
+  ps4PatchPkgPath: 
+  ps4PatchLatestPkgPath: 
+  ps4PatchChangeinfoPath: 
+  ps4PatchDayOne: 0
+  ps4attribUserManagement: 0
+  ps4attribMoveSupport: 0
+  ps4attrib3DSupport: 0
+  ps4attribShareSupport: 0
+  ps4attribExclusiveVR: 0
+  ps4disableAutoHideSplash: 0
+  ps4videoRecordingFeaturesUsed: 0
+  ps4contentSearchFeaturesUsed: 0
+  ps4CompatibilityPS5: 0
+  ps4AllowPS5Detection: 0
+  ps4GPU800MHz: 1
+  ps4attribEyeToEyeDistanceSettingVR: 0
+  ps4IncludedModules: []
+  ps4attribVROutputEnabled: 0
+  monoEnv: 
+  splashScreenBackgroundSourceLandscape: {fileID: 0}
+  splashScreenBackgroundSourcePortrait: {fileID: 0}
+  spritePackerPolicy: 
+  webGLMemorySize: 16
+  webGLExceptionSupport: 1
+  webGLNameFilesAsHashes: 0
+  webGLDataCaching: 1
+  webGLDebugSymbols: 0
+  webGLEmscriptenArgs: 
+  webGLModulesDirectory: 
+  webGLTemplate: APPLICATION:Default
+  webGLAnalyzeBuildSize: 0
+  webGLUseEmbeddedResources: 0
+  webGLCompressionFormat: 1
+  webGLWasmArithmeticExceptions: 0
+  webGLLinkerTarget: 1
+  webGLThreadsSupport: 0
+  webGLDecompressionFallback: 0
+  webGLInitialMemorySize: 32
+  webGLMaximumMemorySize: 2048
+  webGLMemoryGrowthMode: 2
+  scriptingBackend: {}
+  m_BuildTargetShaderCompilerVersion: {}
+  m_BuildTargetAPICompatibityLevel: {}
+  m_BuildTargetManagedStrippingLevel: {}
+  managedStrippingLevel:
+    Standalone: 0
+    Android: 0
+  m_BuildTargetEnabledVulkanTargets: {}
+  m_GpuSkinning: {}
+  m_BuildTargetETC2Fallback: {}
+  m_RenderingPath: {}
+  m_BuildTargetVRDevices: {}
+  scriptingDefineSymbols:
+    1: 
+    13: 
+  additionalCompilerArguments:
+    1: []
+    13: []
+  platformArchitecture:
+    Android: 1
+  scriptingBackend:
+    Android: 0
+  il2cppCompilerConfiguration:
+    Android: 0
+  m_BuildTargetIl2CppCodeGeneration: {}
+  m_BuildTargetIl2CppBackend: {}
+  incrementalIl2CppBuild: {}
+  suppressCommonWarnings: 1
+  allowUnsafeCode: 0
+  useDeterministicCompilation: 1
+  useReferenceAssemblies: 1
+  enableRoslynAnalyzers: 1
+  selectedPlatform: 0
+  additionalIl2CppArgs: 
+  scriptingRuntimeVersion: 1
+  gcIncremental: 1
+  gcConservativeModeEnabled: 0
+  assemblyVersionValidation: 1
+  renderingPath: 1
+  mobileRenderingPath: 1
+  activeInputHandler: 0
+  windowsGamepadBackendHint: 0
+  cloudProjectId: 
+  framebufferDepthMemorylessMode: 0
+  markerID: 
+  productGUID: 00000000000000000000000000000000
+  useHDRDisplay: 0
+  hdrBitDepth: 0
+  m_ColorGamuts: 00000000
+  targetPixelDensity: 30
+  resolutionScalingMode: 0
+  resetResolutionOnDisplaySizeChange: 0
+  androidSupportedAspectRatio: 1
+  androidMaxAspectRatio: 2.1
+  applicationIdentifier: {}
+  buildNumber: {}
+  AndroidKeystoreName: 
+  AndroidKeyaliasName: 
+  AndroidBuildSystem: 0
+  AndroidBuildType: 0
+  AndroidBuildAppBundle: 0
+  AndroidCreateSymbols: 0
+  AndroidTargetArchitectures: 1
+  AndroidTargetDevices: 0
+  AndroidSplashScreenScale: 0
+  androidSplashScreen: {fileID: 0}
+  AndroidKeystorePass: 
+  AndroidKeyaliasPass: 
+  AndroidLicenseVerification: 0
+  AndroidBundleVersionCode: 1
+  AndroidMinSdkVersion: 22
+  AndroidTargetSdkVersion: 34
+  AndroidPreferredInstallLocation: 1
+  aotOptions: 
+  AndroidUseOBB: 0
+  AndroidPublicKeyHash: 
+  AndroidGamepadSupportLevel: 0
+  AndroidEnableTango: 0
+  AndroidEnableARCore: 0
+  AndroidARCoreRequirement: 0
+  AndroidEnableWifi: 1
+  AndroidEnableBluetoothGAP: 0
+  AndroidShowActivityIndicatorOnLoading: -1
+  AndroidMaxAspectRatio: 2.1
+  AndroidTVCompatibility: 0
+  AndroidIsGame: 1
+  AndroidEnableDeepLinkingAPI: 0
+  AndroidValidateAppBundleSize: 1
+  AndroidAppBundleSizeToValidate: 150
