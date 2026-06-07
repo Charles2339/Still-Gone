@@ -1,25 +1,60 @@
 name: Get Unity License File
 
+# Run this ONCE to get the .alf file you need to upload to
+# https://license.unity3d.com/manual  →  download .ulf  →  add as UNITY_LICENSE secret
+
 on:
   workflow_dispatch:
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  UNITY_VERSION: 2022.3.45f1
 
 jobs:
-  activation:
-    name: Request Activation File
+  get-alf:
+    name: Generate activation file
     runs-on: ubuntu-latest
     steps:
-      - name: Request Unity Activation File (.alf)
-        uses: game-ci/unity-request-activation-file@v2
-        id: getalf
-        with:
-          unityVersion: 2022.3.45f1
+      - name: Pull Unity editor Docker image
+        run: |
+          # Try the base image used by game-ci internally
+          docker pull unityci/editor:ubuntu-${UNITY_VERSION}-base-3.1.0 \
+          || docker pull unityci/editor:ubuntu-${UNITY_VERSION}-base-3.0.0 \
+          || docker pull unityci/editor:${UNITY_VERSION}-base-3.1.0 \
+          || docker pull unityci/editor:${UNITY_VERSION}-base-3.0.0
+          echo "Image pulled successfully"
 
-      - name: Upload .alf for manual activation
+      - name: Generate .alf activation file
+        run: |
+          # Determine which image tag was pulled
+          IMG=$(docker images --format "{{.Repository}}:{{.Tag}}" | grep unityci | head -1)
+          echo "Using image: $IMG"
+          
+          docker run --rm \
+            -v "$(pwd):/workspace" \
+            --workdir /workspace \
+            "$IMG" \
+            bash -c "
+              echo '=== Generating activation file ==='
+              unity-editor \
+                -batchmode \
+                -createManualActivationFile \
+                -logfile /dev/stdout \
+              2>&1 || true
+              
+              # Unity writes the .alf in /root/ or the working dir
+              find / -name 'Unity_v*.alf' 2>/dev/null | head -5
+              cp /root/Unity_v*.alf /workspace/ 2>/dev/null \
+              || cp Unity_v*.alf /workspace/ 2>/dev/null \
+              || echo 'WARNING: .alf not found in expected paths'
+              
+              ls -la /workspace/*.alf 2>/dev/null && echo 'SUCCESS' || echo 'FAILED'
+            "
+
+      - name: Upload activation file
         uses: actions/upload-artifact@v4
         with:
-          name: Unity_v${{ steps.getalf.outputs.unity_version }}.alf
-          path: ${{ steps.getalf.outputs.filePath }}
+          name: unity-activation-file
+          path: "*.alf"
           retention-days: 7
+          if-no-files-found: warn
